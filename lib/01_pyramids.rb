@@ -35,8 +35,7 @@ def wtf_pyramid
 		print "Veuillez saisir un nombre impair. Combien d'étages veux-tu ?\n> "
 		number_floors = gets.to_i
 	end
-
-	puts "Voici la pyramide : "
+ 	puts "Voici la pyramide : "
 
 	# Partie supérieure de la pyramide
 	number_dieses = 1
