@@ -13,12 +13,11 @@ end
 
 
 
-# Fonction qui met dans une variable first_name le résultat de la fonction ask_first_name et qui appelle la fonction say_hello avec comme variable le résultat de la fonction ask_first_name
+# Fonction qui met dans une variable first_name, le résultat de la fonction ask_first_name et qui appelle la fonction say_hello avec comme variable le résultat de la fonction ask_first_name
 def perform
-
 	first_name = ask_first_name
 	say_hello(first_name)
 end
 
-
+# Exécution de la méthode perform qui appelle les méthodes say_hello et ask_first_name
 perform
